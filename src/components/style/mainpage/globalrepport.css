@@ -1,0 +1,326 @@
+.main-container .innerMainboxWrapper {
+    width: 100%;
+    height: calc(100% - 0%);
+    padding: 0px -55px 35px 0px;
+    margin-left: 25px;
+    margin-right: 0px;
+    position: relative;
+    /* background: #fff; */
+    float: left;
+    overflow: auto;
+}
+
+
+.main-container .mainboxColumn {
+    height: calc(100% - 9%);
+    margin-left: 45px;
+    margin-right: 20px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.main-container .mainboxColumn .mainboxTitle {
+    color: var( --title-primary-color-h1s);
+    font-size: 108%;
+    font-weight: 400;
+    letter-spacing: .25px;
+    margin-bottom: 12px;
+    outline: none;
+    padding-bottom: 4px;
+    padding-top: 8px;
+    margin-top: 21px;
+    margin-left: 25px;
+    /* font-size: 22px;
+    font-weight: 300;
+    white-space: nowrap; */
+}
+
+.main-container .mainboxColumn .mainboxColumn__placard {
+    width: 100%;
+    /* background: #fff; */
+    /* border-radius: 4px; */
+    /* border: 1px solid #c7c7c7; */
+}
+
+.main-container .mainboxColumn 
+.mainboxColumn__placard .placard {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    margin: 15px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.main-container .mainboxColumn 
+.mainboxColumn__placard  
+.placard__box {
+    padding: 8px 0px 8px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.placard__box-info {
+    width: 30%;
+    display: flex;
+    padding: 8px;
+    border-radius: 4px;
+    flex-direction: column;
+    margin: 0px 15px 0px 15px;
+    background: #fff;
+    box-shadow: var(--box-shadow_3dp);
+}
+
+.main-container .mainboxColumn 
+.mainboxColumn__placard  
+.placard__box-info
+.compSit {
+    display: flex;
+    flex-direction: row;
+}
+
+.compSit span {
+    color: #000;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.compSit .infoleft {
+    width: 50%;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    white-space: nowrap;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.compSit .inforight {
+    font-size: 22px;
+    font-weight: 600;
+    width: 50%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.mainboxColumn .mainboxColumn__placard {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainboxColumn .mainboxColumn__placard .placard {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 0px 15px 0px 15px;
+    box-shadow: var(--box-shadow_4dp);
+}
+
+.mainboxColumn .mainboxColumn__placard .placard h2 {
+    /* font-size: 22px; */
+    font-size: large;
+    font-weight: 600;
+    padding: 4px;
+    margin-top: 0;
+    white-space: nowrap;
+    text-transform: uppercase;
+
+}
+
+.mainboxColumn .mainboxColumn__placard .placard
+.placard__box {
+    padding: 4px;
+    text-align: center;
+    /* font-size: 48px; */
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.innerMainboxWrapper 
+.mainboxColumn 
+.mainboxColumn__placard 
+.leftcard {
+    background-color: #c0ecbe;
+}
+
+.innerMainboxWrapper 
+.mainboxColumn 
+.mainboxColumn__placard 
+.middlecard {
+    background-color: #e6cd98;
+}
+
+.innerMainboxWrapper 
+.mainboxColumn 
+.mainboxColumn__placard 
+.rightcard {
+    background-color: #c2d5f1;
+}
+
+.innerMainboxWrapper 
+.mainboxColumn 
+.mainboxColumn__placard 
+.lastcard {
+    background-color: #eeb6ac;
+}
+
+.innerMainboxWrapper 
+.mainboxColumn  
+.select_options {
+    align-items: center;
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 22px;
+}
+
+.innerMainboxWrapper 
+.mainboxColumn  
+.select_options
+select {
+   color: #fff;
+   border-radius: 4px;
+   margin-bottom: 10px;
+   padding: 8px;
+   background: #2F323A;
+   font-weight: 600;
+   box-shadow: var(--box-shadow_2dp);
+}
+
+.innerMainboxWrapper 
+.mainboxColumn  
+.select_options
+button {
+   color: #fff;
+   border-radius: 4px;
+   margin-bottom: 10px;
+   padding: 8px;
+   background: #2F323A;
+   font-weight: 600;
+   margin-left: 10px;
+   box-shadow: var(--box-shadow_2dp);
+}
+
+
+.innerMainboxWrapper 
+.mainboxColumn .mainboxColumn__chart {
+    margin-top: 20px;
+    width: 100%;
+    box-shadow: var(--box-shadow_3dp);
+}
+
+.innerMainboxWrapper 
+.mainboxColumn .mainboxColumn__chart
+.chartbox {
+    border-radius: 4px;
+    border: 1px solid #c7c7c7;
+    background: #fff;
+}
+
+/* right side "options */
+
+.main-container .mainboxOption {
+    width: 15%;
+    float: right;
+    background: #fff;
+}
+
+.main-container 
+.mainboxOption 
+.innerMainboxOption {
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+    border-left: 1px solid #c7c7c7;
+}
+
+.main-container .mainboxOption 
+.innerMainboxOption 
+.mainboxOption__column {
+    background: transparent;
+}
+
+.main-container .mainboxOption 
+.innerMainboxOption 
+.mainboxOption__column h3 {
+    text-align: center;
+    white-space: nowrap;
+    color: #333;
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.main-container .mainboxOption 
+.innerMainboxOption 
+.mainboxOption__column .btnGroup {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.main-container .mainboxOption 
+.innerMainboxOption 
+.mainboxOption__column .btnGroup a {
+    color: #fff;
+    margin: 5px;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    /* font-weight: bold; */
+    background: #2F323A;
+    border-radius: 4px;
+    box-shadow: var(--box-shadow_3dp);
+}
+
+
+.main-container .mainboxOption 
+.innerMainboxOption 
+.mainboxOption__column .btnGroup
+.btnactive {
+    background: #06afc5;
+}
+
+
+.main-container .mainboxOption 
+.innerMainboxOption 
+.mainboxOption__column .btnGroup a:hover {
+    background: #0c6a79;
+    cursor: pointer;
+}
+
+/* .main-container .mainboxOption 
+.innerMainboxOption 
+.mainboxOption__column .btnGroup a label {
+    text-align: left;
+} */
+
+/* .main-container .mainboxOption 
+.innerMainboxOption 
+.mainboxOption__column .btnGroup a span {
+    float: right;
+    font-size: 12px;
+    padding-left: 20px;
+    margin-top: 5px;
+} */
+
+
+.innerMainboxWrapper 
+.mainboxColumn .mainboxColumn__tables {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.innerMainboxWrapper 
+.mainboxColumn .mainboxColumn__tables
+.tables{
+    border-radius: 4px;
+    border: 1px solid #c7c7c7;
+    background: #fff;
+}
+

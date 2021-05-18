@@ -1,0 +1,72 @@
+
+.circle {
+    margin: 70px auto;
+    width: 40px;
+    height: 10px;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.container_loader {
+    width: 100%;
+    /* margin: 70px auto; */
+    z-index: 1;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: transparent;
+    background-color: rgba(230, 230, 230, 0.945);
+}
+
+
+.container_loader-anim {
+    width: 70%;
+    /* height: 50%; */
+    margin: 10% auto;
+    text-align: center;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    margin: 20% auto;
+}
+
+
+.dot1 {
+    background-color: #2878b9;
+    animation:  jump-up 0.6s 0.1s linear infinite;
+}
+
+
+.dot2 {
+    /* background-color: #c0b233; */
+    background-color: #2878b9;
+    animation:  jump-up 0.6s 0.2s linear infinite;
+}
+
+
+.dot3 {
+    /* background-color: #e48e6c; */
+    background-color: #2878b9;
+    animation:  jump-up 0.6s 0.3s linear infinite;
+}
+
+@keyframes jump-up {
+    50% {
+        transform: translate(0,15px);
+    }
+}

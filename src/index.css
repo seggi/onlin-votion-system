@@ -1,0 +1,59 @@
+:root {
+  --box-shadow_2dp:  
+      0 2px 2px 0 rgba(0, 0, 0, 0.14),
+      0 1px 5px 0 rgba(0, 0, 0, 0.12),
+      0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  
+  --box-shadow_3dp: 
+      0 3px 4px 0 rgba(0, 0, 0, 0.14),
+      0 1px 8px 0 rgba(0, 0, 0, 0.12), 
+      0 3px 3px -2px rgba(0, 0, 0, 0.4);
+
+  --box-shadow_4dp:
+      0 4px 5px 0 rgba(0, 0, 0, 0.14), 
+      0 1px 10px 0 rgba(0, 0, 0, 0.12), 
+      0 2px 4px -1px rgba(0, 0, 0, 0.4);
+
+  --box-shadow_6dp: 
+      6px 10px 0 rgba(0, 0, 0, 0.14), 
+      0 1px 18px 0 rgba(0, 0, 0, 0.12), 
+      0 3px 5px -1px rgba(0, 0, 0, 0.4);
+
+  --md-toolbar-message-color: #6e6e6e;
+  --title-primary-color-h1: rgba(32, 33, 36, 1);
+  --input-primary-color: rgba(32, 33, 36, 1);
+  
+}
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.input {
+  background-color: transparent;
+  border: none;
+  box-sizing: border-box;
+  caret-color: rgb(26, 115, 232);
+  color: var(--input-primary-color);
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  min-height: 24px;
+  outline: none;
+  text-align: inherit;
+  text-overflow: ellipsis;
+  border-bottom: 1px solid rgb(95, 99, 104);
+}

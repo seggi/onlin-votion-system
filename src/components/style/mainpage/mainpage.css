@@ -1,0 +1,22 @@
+.wrapper  .main-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    width: 94%;
+    height: 100%;
+    background: #fff;
+   
+    /* background: cornflowerblue; */
+}
+
+.main-container {
+    overflow: hidden;
+}
+
+.main-container::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+
